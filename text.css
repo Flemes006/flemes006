@@ -1,0 +1,218 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+a {
+    text-decoration: none; 
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.Id_Name {
+border: 1px solid Gray;
+text-decoration-line: none;
+padding-top: 25px;
+padding-bottom: 25px;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+letter-spacing: 3px;
+background-color: DarkGrey;
+color: White;
+display: flex;
+align-items: center;
+margin-bottom: 70px;
+}
+
+.Class_Two {
+    margin-left: auto;
+    align-items: center;
+    margin-right: auto;
+    margin:auto;
+    word-spacing: 90px;
+    position: sticky;
+z-index: 9999;
+box-shadow: gray;
+}
+
+
+
+
+
+
+#Id_Icon{
+ /*   border: 1px solid Gray;*/
+    text-decoration: none;
+    font-size: 23px;
+ /*   background-color: DimGray;*/
+    color: Gray;
+    padding-top: 20px;
+padding-bottom: 10px;
+display: flex;
+text-align: center;
+}
+
+#Icon_One {
+color: gray;
+text-align: center;
+white-space: 80px;
+}
+
+/* тут цветные ссылки в шапке*/ 
+
+#H_One:hover {
+    color: Yellow;
+}
+
+#H_Two:hover {
+    color: red;
+}
+
+#H_Zero:hover {
+    color: white;
+}
+
+#H_Three:hover {
+    color: Lime;
+}
+
+#H_Four:hover {
+    color: blue;
+}
+
+#Id_Lobby {
+font-size: 30px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: 1px solid Honeydew;
+border-top: none;
+padding-bottom: 20px;
+padding-top: 20px;
+}
+
+/*тут стили для ячеик*/
+.Div_Lobby{
+font-size: 20px;
+font-family:  'Arial Narrow Bold', sans-serif;
+
+
+}
+
+#Csgo {
+   font-size: 25px; 
+   color: DeepPink;
+}
+
+#Img_Csgo {
+    width: 50%;
+    height: 50%;
+    border: 2px double White;
+}
+
+#Img_Csgo:hover{
+    border-color: Red;
+}
+
+
+#Hr_One {
+    padding-top: 30px;
+    border-top:none;
+}
+
+#Valorant {
+    font-size: 25px;
+    color: red;
+}
+
+#Img_Valorant {
+    width: 50%;
+    height: 50%;
+    border: 2px double White;
+}
+
+#Img_Valorant:hover{
+    border-color: red;
+}
+
+#Warzone {
+    font-size: 25px;
+    color: rgb(5, 255, 5);
+}
+
+#Img_Warzone {
+    width: 50%;
+    height: 50%;
+    border: 2px double White;
+}
+
+#Img_Warzone:hover {
+    border-color: red;
+}
+
+.Download_Lobby {
+   
+    padding-top: 30px;
+}
+
+.But_One {
+    border: 2px double DodgerBlue;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 100%;
+    padding:3px;
+    margin:100px;
+    color: white;
+    background-color: DodgerBlue;
+}
+
+.But_One:hover {
+    background-color: RoyalBlue;
+.content {
+    margin-top: 60px;
+}
+
+/* нужно сделать на одну строчку, и что  бы она шла за прокруткой*/
+
+.Footer_One {
+    border:1px solid black;
+    font-size: 25px;
+    background-color: black;
+}
+
